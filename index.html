@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your Name - Portfolio</title>
+<link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+<header>
+<h1>Ian Seetaram</h1>
+<p>Pursuing a career in Cybersecurity</p>
+</header>
+
+<nav>
+<a href="#about">About</a>
+<a href="#projects">Projects</a>
+<a href="#writeups">Writeups</a>
+<a href="#code">Code</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+<img src="images/iansprofile.jpg" alt="Ian Seetaram Cybersecurity Professional">
+<h2>About Me</h2>
+<p>Brief intro about yourself...</p>
+<a href="your_resume.pdf" download>Download Resume</a>
+</section>
+
+<section id="projects">
+<!-- Repeat this block for each project -->
+<div class="project">
+<img src="project_image.jpg" alt="Project Image">
+<h3>Project Title</h3>
+<p>Project description...</p>
+<a href="project_link">View Project</a>
+<a href="code_link">View Code</a>
+</div>
+<!-- ... -->
+</section>
+
+<section id="writeups">
+<!-- Repeat this block for each writeup -->
+<div class="writeup">
+<img src="writeup_thumbnail.jpg" alt="Writeup Thumbnail">
+<h3>Writeup Title</h3>
+<p>Writeup description...</p>
+<a href="writeup_link">Read More</a>
+</div>
+<!-- ... -->
+</section>
+
+<section id="code">
+<!-- Repeat this block for each code snippet or repo -->
+<div class="code-snippet">
+<h3>Code Title</h3>
+<p>Code description...</p>
+<a href="repo_link">View Code</a>
+</div>
+<!-- ... -->
+</section>
+
+<section id="contact">
+<h2>Contact Me</h2>
+<form action="submit_form.php" method="POST">
+<input type="text" name="name" placeholder="Your Name" required>
+<input type="email" name="email" placeholder="Your Email" required>
+<textarea name="message" placeholder="Your Message" required></textarea>
+<button type="submit">Send Message</button>
+</form>
+<div class="social-links">
+<!-- Add your social links here -->
+<a href="your_linkedin_profile">LinkedIn</a>
+<a href="your_github_profile">GitHub</a>
+<!-- ... -->
+</div>
+</section>
+
+<footer>
+<p>© 2024 Your Name. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+
+</html>
